@@ -1,0 +1,322 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+      width: 100%;
+}
+body{
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ height: 100%;
+     font-family: Times New Roman ,Sans-Serif;
+    overflow-x: hidden;
+}
+.l-wrap {
+    flex-wrap: nowrap;
+} 
+.float-left{
+    float: left !important;
+}
+.float-right{
+    float: right !important;
+}
+[class*="xl"]{
+
+    margin: 1% .16%;
+}
+[class*="lg"]{
+
+    margin: 1% .16%;
+}
+[class*="sm"]{
+
+    margin: 1% .16%;
+}
+[class*="md"]{
+
+    margin: 1% .16%;
+}
+[class*="xs"]{
+
+    margin: 1% .16%;
+}
+
+@media only screen and (max-width:600px)
+{ #navbar .responsive{
+    display: block;
+  }
+    #navbar .list {
+
+        float: none;
+        display: block;
+        text-align: center;
+    
+      }
+      .menulinks{
+        display: none;
+      }
+      .menulinks.responsivemenu{
+        display: block;
+      }
+      
+
+    .xs1{
+        width: 8%;
+        float:left;
+    }
+    .xs2{
+        width: 16.33%;
+        float:left;
+    }
+    .xs3{
+        width: 24.66%;
+        float:left;
+    }
+    .xs4{
+        width: 32.99%;
+        float:left;
+    }
+    .xs5{
+        width: 41.32%;
+        float:left;
+    }
+    .xs6{
+        width: 49.65;
+        float:left;
+    }
+    .xs7{
+        width: 57.90%;
+        float:left;
+    }
+    .xs8{
+        width: 66.31%;
+        float:left;
+    }
+    .xs9{
+        width: 74.64%;
+        float:left;
+    }
+    .xs10{
+        width: 82.97%;
+        float:left;
+    }
+    .xs11{
+        width: 91.3%;
+        float:left;
+    }
+    .xs12{
+        width: 99.63%;
+        float:left;
+    }
+}
+@media only screen and (min-width:600px)
+{
+    
+    
+.sm1{
+    width: 8%;
+    float:left;
+}
+.sm2{
+    width: 16.33%;
+    float:left;
+}
+.sm3{
+    width: 24.66%;
+    float:left;
+}
+.sm4{
+    width: 32.99%;
+    float:left;
+}
+.sm5{
+    width: 41.32%;
+    float:left;
+}
+.sm6{
+    width: 49.65;
+    float:left;
+}
+.sm7{
+    width: 57.90%;
+    float:left;
+}
+.sm8{
+    width: 66.31%;
+    float:left;
+}
+.sm9{
+    width: 74.64%;
+    float:left;
+}
+.sm10{
+    width: 82.97%;
+    float:left;
+}
+.sm11{
+    width: 91.3%;
+    float:left;
+}
+.sm12{
+    width: 99.63%;
+    float:left;
+}
+}
+@media only screen and (min-width:768px)
+{
+    
+
+.md1{
+    width: 8%;
+    float:left;
+}
+.md2{
+    width: 16.33%;
+    float:left;
+}
+.md3{
+    width: 24.66%;
+    float:left;
+}
+.md4{
+    width: 32.99%;
+    float:left;
+}
+.md5{
+    width: 41.32%;
+    float:left;
+}
+.md6{
+    width: 49.65;
+    float:left;
+}
+.md7{
+    width: 57.90%;
+    float:left;
+}
+.md8{
+    width: 66.31%;
+    float:left;
+}
+.md9{
+    width: 74.64%;
+    float:left;
+}
+.md10{
+    width: 82.97%;
+    float:left;
+}
+.md11{
+    width: 91.3%;
+    float:left;
+}
+.md12{
+    width: 99.63%;
+    float:left;
+}
+ 
+}
+@media only screen and (min-width:992px)
+{
+.lg1{
+    width: 8%;
+    float:left;
+}
+.lg2{
+    width: 16.33%;
+    float:left;
+}
+.lg3{
+    width: 24.66%;
+    float:left;
+}
+.lg4{
+    width: 32.99%;
+    float:left;
+}
+.lg5{
+    width: 41.32%;
+    float:left;
+}
+.lg6{
+    width: 49.65;
+    float:left;
+}
+.lg7{
+    width: 57.90%;
+    float:left;
+}
+.lg8{
+    width: 66.31%;
+    float:left;
+}
+.lg9{
+    width: 74.64%;
+    float:left;
+}
+.lg10{
+    width: 82.97%;
+    float:left;
+}
+.lg11{
+    width: 91.3%;
+    float:left;
+}
+.lg12{
+    width: 99.63%;
+    float:left;
+} 
+
+}
+@media only screen and (min-width:1200px)
+{
+  
+.xl1{
+    width: 8%;
+    float:left;
+}
+.xl2{
+    width: 16.33%;
+    float:left;
+}
+.xl3{
+    width: 24.66%;
+    float:left;
+}
+.xl4{
+    width: 32.99%;
+    float:left;
+}
+.xl5{
+    width: 41.32%;
+    float:left;
+}
+.xl6{
+    width: 49.65;
+    float:left;
+}
+.xl7{
+    width: 57.90%;
+    float:left;
+}
+.xl8{
+    width: 66.31%;
+    float:left;
+}
+.xl9{
+    width: 74.64%;
+    float:left;
+}
+.xl10{
+    width: 82.97%;
+    float:left;
+}
+.xl11{
+    width: 91.3%;
+    float:left;
+}
+.xl12{
+    width: 99.63%;
+    float:left;
+}
+}
