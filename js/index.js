@@ -15,14 +15,19 @@ for (var i = 0; i < btns.length; i++) {
     this.className += ' active'
   })
 }
-window.onscroll = function() {scrollFunction()};
+         
 
-//function scrollFunction() {
-//  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-//    document.getElementById("navbar").style.width = "100%";
-//    document.getElementById('navbar').style.position = 'fixed'
-//  } else {
-//    document.getElementById("header").style.navbar = "80%";
-//    document.getElementById('navbar').style.position = 'static'
-//  }
-//}
+window.onscroll = function() { scrollFunction()};
+
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      console.log('i m do');
+    document.getElementById("navbar").style.width = "100%";
+    document.getElementById("navbar").style.position = "fixed";
+  } else {
+    document.getElementById("navbar").style.width = "90%";
+    document.getElementById("navbar").style.position = "static";
+
+  }
+}
