@@ -15,55 +15,102 @@
 
 <body>
   <header>
-    <div id="navbar">
-      <div class="col-lg12 col-md12 col-xl12 col-xs12 col-sm12">
-        <a class="float-left">
-          logo
-        </a>
-        <a class=" responsive float-right" onclick="myFunction()">
-          menu
-        </a>
+   
 
-        <div class="menulinks" id="menulink">
-          <a id="homelist" class="list active" href="#">HOME</a>
-          <a id="homelist" class="list" href="#">ABOUT</a>
-          <a id="homelist" class="list" href="#">WORKS</a>
-          <a id="homelist" class="list" href="#">TESTIMONIALS</a>
-          <a id="homelist" class="list" href="#">CONTACT</a>
-        </div>
-
-      </div>
-    </div>
-  </header>
     <div class="mainpage">
+      <nav id="navbar">
+        <ul>
+         <li >
+           <a class="float-left">
+             logo
+           </a>
+         </li>
+         <li>
+           <a class=" responsive float-right" onclick="myFunction()">
+             menu
+           </a>
+         </li>
+         <div class="menulinks" id="menulink">
+           <li>  <a id="homelist" class="list active" href="#">HOME</a></li>
+           <li> <a id="homelist" class="list" href="#">ABOUT</a></li>
+           <li> <a id="homelist" class="list" href="#">WORKS</a></li>
+           <li> <a id="homelist" class="list" href="#">TESTIMONIALS</a></li>
+           <li>  <a id="homelist" class="list" href="#">CONTACT</a></li>
+         </div>
+        </ul>
+      </nav>
+      <div style="width: 50%; background-color:#443f477a; left:0%;  height: 100%; position:absolute;"></div>
+      <div style="width: 50%; background-color: rgba(149, 134, 214, 0.342); left:50%; height: 100%; z-index: 1; position:absolute;"></div>
+ 
       <div class="maincontainer">
         <h1>Dunia Muhammed</h1>
         <h3>I'm a Developer |</h3>
       </div>
-      <div style="width: 50%; background-color: rgba(42, 43, 54, 0.473); left:50%; height: 100%;"></div>
+           <div class="sociallinks">
+        <a href="https://twitter.com/thenme96">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/then.mee">
+          <i class="fa fa-facebook-f"></i>
+        </a>
+        <a href="https://github.com/Thenmee">
+          <i class="fa fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/dunia-muhammed-113492190">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </div>
+      <div class="languageswitches">
+        <a>
+          en
+        </a>
+        <a>
+          ar
+        </a>
+      </div>
     </div>
-    <div class="sociallinks">
-      <a href="https://twitter.com/thenme96">
-        <i class="fa fa-twitter"></i>
-      </a>
-      <a href="https://www.facebook.com/then.mee">
-        <i class="fa fa-facebook-f"></i>
-      </a>
-      <a href="https://github.com/Thenmee">
-        <i class="fa fa-github"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/dunia-muhammed-113492190">
-        <i class="fa fa-linkedin"></i>
-      </a>
+  </header>
+    <section class="aboutme ">
+      <div class="col-xl8 col-md9 col-xs9 col-sm9 col-lg8 ">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non odit, quaerat reprehenderit tempora corporis illo sapiente veniam molestiae maxime pariatur earum consequatur corrupti! Explicabo libero illo corporis vero dolorem reiciendis.
+         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi repellendus non officiis fugit omnis dolore porro vitae placeat libero? Possimus rem exerc
+       </p>
     </div>
-    <div class="languageswitches">
-      <a>
-        en
-      </a>
-      <a>
-        ar
-      </a>
-    </div>
+    </section>
+    <section class="abilities">
+      <div class="col-xl3 col-md3 col-xs4 col-sm4 col-lg3 html5div " >
+        <img src="./assets/html-5.png" alt="" >
+      </div>
+      <div class="col-xl3 col-md3 col-xs4 col-sm4 col-lg3 css3div" >
+        <img src="./assets/css.png" alt="" >
+      </div>
+      <div class="col-xl3 col-md3 col-xs4 col-sm4 col-lg3 jsdiv" >
+        <img src="./assets/js.png" alt="" >
+      </div>
+      <div class="col-xl3 col-md3 col-xs4 col-sm4 col-lg3 bootstrap" >
+        <img src="./assets/bootstrap.png" alt="" >
+      </div>
+      <div class="col-xl3 col-md3 col-xs4 col-sm4 col-lg3 vuejsdiv">
+        <img src="./assets/vuejs.png" alt="" >
+      </div>
+      <div class="col-xl3 col-md3 col-xs4 col-sm4 col-lg3 php ">
+        <img src="./assets/php.png" alt="" >
+      </div>
+      <div class="col-xl3 col-md3 col-xs4 col-sm4 col-lg3 pythondiv">
+        <img src="./assets/python.png" alt="" >
+      </div>
+      <div class="col-xl3 col-md3 col-xs4 col-sm4 col-lg3 laraveldiv">
+        <img src="./assets/laravel.png" alt="" >
+      </div>
+    
+    </section>
+    <section class="hireme" >
+      <div class="col-xl8 col-md9 col-xs9 col-sm9 col-lg8 " >
+        <h3>Need something Specific</h3>
+        <h5>we are currently crafting new product's but would love to hear from you.</h5>
+        <button>hire me</button>
+      </div>
+    </section>
 
     <script src="js/index.js">
     </script>

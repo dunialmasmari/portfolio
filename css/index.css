@@ -17,7 +17,7 @@ html,body {
 
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-    background: #080808;
+    background: #1d023b;
     border-radius: 5px;
 }
 .l-wrap {
@@ -42,30 +42,41 @@ html,body {
     margin: 0;
     padding: 0;
 }
-.mainpage{
+header{
     height: 100vh;
+    max-height: 100vh;
     background-image: url('../assets/bgimage.png');
-    -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-    background-position:center;
-    background-color:#631093c4;;
+   
+    background-size: cover;
+    background-color:#631093c4; 
     justify-content: center;
     align-items:center;
+    z-index: 0;
+}
+.mainpage{
+    height: 100%;
+    max-height: 100%;
     position: relative;
-  z-index: 0;
+    background-image: url('../assets/woman.png');
+   
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    background-position-y: 30px;
+    
+    justify-content: center;
+    align-items:center;
 }
 .maincontainer{
     position: absolute;
     margin: auto;
-    top:40%;
+    top:40vh;
     padding: auto;
     justify-content: center;
     align-items:center;
     width: 100%;
 }
- h1{
+.maincontainer h1{
    
     color: #fff;
     text-justify: center;
@@ -73,16 +84,16 @@ html,body {
     font: bold  Sans-Serif;
 }
 
- h3{
+.maincontainer h3{
     text-justify: center;
     text-align: center;
     color: #fff;
     font: bold 17px Sans-Serif;
 }
 .sociallinks{
-    position: fixed;
-    bottom: 15px;
-    right:30px;
+    position: absolute;
+    bottom: 3vh;
+    right:3vw;
     background-color: transparent;
 }
 .sociallinks a{
@@ -94,9 +105,9 @@ html,body {
     padding:5px;
 }
 .languageswitches{
-    position: fixed;
-    bottom: 15px;
-    left:30px;
+    position: absolute;
+    bottom: 3vh;
+    left:3vw;
     background-color: transparent;
 }
 .languageswitches a{
@@ -111,4 +122,83 @@ html,body {
     font: bold 12px Sans-Serif;
   text-transform: uppercase;
 }
+.aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+    padding: auto;
+}
+.aboutme p {
+    text-align: center;
+    margin: 20px auto;
+}
+.abilities{
+    height: 50vh;
+}
+.abilities div{
+    height: 60%;
+    display: flex;
+    
+}
+div>img{
+    display: block;
+    padding: auto;
+    margin:auto;
+    height:70px;
+     width:70px;
+}
 
+.html5div{
+    background-color: rgba(78, 169, 230, 0.932);
+}
+.css3div{
+    background-color: rgb(230, 247, 192);
+}
+.jsdiv{
+    background-color: rgb(104, 110, 110);
+}
+.bootstrap{
+    background-color: rgb(205, 226, 223);
+}
+.vuejsdiv{
+    background-color: rgb(238, 194, 137);
+}
+
+.php{
+    background-color: rgb(255, 85, 73);
+}
+
+.laraveldiv{
+    background-color: rgb(191, 192, 199);
+}
+
+.pythondiv{
+    background-color: rgb(19, 19, 41);
+}
+
+.hireme {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    width: 100vw;
+}
+
+.hireme h3 ,.hireme h5 ,.hireme button{
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+}
+
+button{
+    padding:10px;
+    align-items: center;
+    width: 120px;
+    background-color: #471366c4;
+    line-height: 15px;
+    color: #fff;
+    border: transparent;
+    text-transform: uppercase;
+}

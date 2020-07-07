@@ -3,32 +3,39 @@
     overflow: hidden;
     width: 100%;
     transition: 0.4s;
-    background-color: transparent;
-    padding: 10px 0;
+    background-color: #471366c4 ;
     top: 0;
     z-index: 99;
     position: fixed;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 2px 15px -3px rgba(0,0,0,.2); ;
   }
+  #navbar ul{
+    padding: 0;
+    margin: 0;
+  }
+ #navbar li{
+   display: inline ;
+ }
   .menulinks{
     float: right !important;
   }
     #navbar a {
       float: left;
       color: #fff;
-      height: 30px;
+      height: 20px;
       text-align: center;
       padding: 15px;
       display: block;
       text-decoration: none;
       text-transform: uppercase;
       transition: 0.5s;
-      font-size: 14px;
-      line-height: 30px;
+      font-size: 12px;
+      line-height: 20px;
       border-radius: 4px;
     }
-   
+    
     #navbar .responsive{
         display: none;
     }
