@@ -123,8 +123,12 @@
 }
 @media only screen and (min-width:768px)
 {
-    
-
+    input[type=text]{
+        width: 90%;  
+    }
+    input[type=email],textarea{
+        width: 95%;  
+    }
 .col-md1{
     width: 8.33%;
      
