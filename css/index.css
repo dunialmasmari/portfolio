@@ -61,9 +61,9 @@ header{
     background-image: url('../assets/woman.png');
    
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:contain ;
     background-position-x: right;
-    background-position-y: 30px;
+    background-position-y: 100%;
     
     justify-content: center;
     align-items:center;
@@ -114,11 +114,10 @@ header{
     display: block;
     font-size: 16px;
     text-decoration: none;
-    transform-origin: 0 0;
     transform: rotate(90deg);
     color: #fff;
-    margin: 10px;
-    padding:10px;
+    margin: 10px 5px;
+    padding:10px 5px;
     font: bold 12px Sans-Serif;
   text-transform: uppercase;
 }
@@ -204,7 +203,7 @@ button{
 .contactus {
     background: rgb(236, 223, 243);
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     position: relative;
     display: flex;
     align-items: center;
@@ -214,7 +213,7 @@ button{
     width: 90%;
 }
 .contactusdiv h1{
-    margin:0;
+    margin-bottom:0;
     font-size: 40px;
      font: bold ;
  }
