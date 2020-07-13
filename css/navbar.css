@@ -3,7 +3,7 @@
     overflow: hidden;
     width: 100%;
     transition: 0.4s;
-    background-color: #471366c4 ;
+    background-color: #41295ada ;
     top: 0;
     z-index: 99;
     position: fixed;
@@ -21,6 +21,18 @@
   .menulinks{
     float: right !important;
   }
+ /* #navbar ul{
+    margin: 5px;
+    float: right;
+  }
+  #navbar button{
+    z-index: 1;
+  }
+ #navbar li{
+   display: inline ;
+   
+ }*/
+  
     #navbar a {
       float: left;
       color: #fff;
