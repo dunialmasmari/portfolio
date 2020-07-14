@@ -188,8 +188,13 @@ header {
   }
   .backSide div{
     position: relative;
+
     top: 50%;
     transform: translateY(-50%);
+  }
+  .backSide div h1 ,.backSide div h5{
+
+    margin: auto;
   }
 /*@keyframes MoveUpDown {
   0% {
